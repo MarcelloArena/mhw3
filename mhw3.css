@@ -1,0 +1,192 @@
+   
+.foto
+{
+    width: 200px;
+	height: 200px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    border: goldenrod 3px ridge;
+}
+
+
+
+.stemma
+{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.contenitore
+{
+    display: flex;
+    border: red 1px ridge;
+    
+}
+
+.first
+{
+    margin-left: 88px;
+}
+
+.data
+{
+    margin: 25px;
+    
+}
+
+.squadra
+{
+    font-weight: bold;
+    margin: 25px;
+}
+
+.submit
+{
+    cursor: pointer;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+#content
+{
+    width: 200px;
+    background-color:ghostwhite;
+    border-radius: 20px;
+    height: 30px;
+}
+
+#tipo
+{
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+
+}
+.submit:hover
+{
+    background-color:floralwhite;
+}
+
+.calciatore
+{
+    width: 300px;
+	height: 300px;
+    margin: 10px;
+    border:seagreen 2px solid;
+}
+
+
+
+
+
+body
+{
+    background-color:whitesmoke;
+}
+
+nav
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a
+{
+   border-radius: 50px;
+   background-color:deepskyblue;
+   padding: 5px;
+   font-size: 18px;
+   color: black;
+   text-decoration: none; 
+   font-family:"Khula", Verdana;
+   font-style: normal;
+}
+
+nav a:hover
+{
+    background-color:aqua;
+}
+
+header
+{
+  height: 350px;
+  width: 100%;
+  background-image: url("Sfondo.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top:10px;
+  z-index: -1;
+}
+
+
+ 
+#titolo
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Josefin Slab",Luminari;
+    font-style: normal;
+    position:absolute;
+    left: 42%;
+    top: 50%;
+}
+
+#fotoUtente
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top:-50px;
+    z-index: 1;
+}
+
+#profilo
+{
+    text-align: center;
+
+}
+
+#nome
+{
+    font-family: "Ubuntu Condensed",Andale Mono;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#accesso
+{
+    color:dimgray;
+    font-family: "Nanum Gothic",Calibri;
+    font-style:oblique;
+    font-size: 14px;
+}
+
+
+
+
+#flex-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+
+#overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
